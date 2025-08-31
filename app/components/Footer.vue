@@ -3,7 +3,7 @@
     <div class="container text-center">
       <p class="mb-1">© 2025 WebMarket - Todos os direitos reservados</p>
       <p class="small mb-0">
-        Desenvolvido por <NuxtLink to="https://github.com/MVNSouza" class="text-decoration-none text-primary" external>MVNSouza</NuxtLink> usando <NuxtLink to="https://nuxt.com/" class="text-decoration-none text-primary" external>Nuxt 3</NuxtLink>
+        Desenvolvido por <NuxtLink to="https://github.com/MVNSouza" target="_blank" class="text-decoration-none text-primary" external>MVNSouza</NuxtLink> usando <NuxtLink to="https://nuxt.com/" target="_blank" class="text-decoration-none text-primary" external>Nuxt 3</NuxtLink>
       </p>
     </div>
   </footer>

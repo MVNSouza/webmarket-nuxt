@@ -1,6 +1,6 @@
 <template>
     <div>
-        <NavBar class="nav"/>
+        <NavBar class="navbar fixed-top" />
         <main>
             <h2>Lista de Produtos</h2>
             <div v-if="pending">Carregando os produtos...</div>
@@ -29,6 +29,7 @@
         width: 100%;
         padding: 2rem;
         align-items: center;
+        padding-top: 75px;
     }
     
 </style>

@@ -5,7 +5,7 @@ import { NuxtLink } from '#components';
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid">
       <NuxtLink class="navbar-brand" to="/">Web Market </NuxtLink>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -18,16 +18,12 @@ import { NuxtLink } from '#components';
               <NuxtLink class="nav-link" aria-current="page" to="/">Início</NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="/cart">Carrinho</NuxtLink>
+              <NuxtLink class="nav-link" to="/about" >Sobre</NuxtLink>
             </li>
-            <li class="nav-item">
-              <NuxtLink class="nav-link" to="/about">Sobre</NuxtLink>
-            </li>
-            <li class="nav-item">
-              <NuxtLink class="nav-link" to="/login">Login</NuxtLink>
-            </li>
+          
           </ul>
         </div>
+        <NuxtLink class="nav-link" to="/cart" style="color:beige; font-weight: 500;">Carrinho 🛒</NuxtLink>
     </div>
   </nav>
 </template>

@@ -1,6 +1,8 @@
 <template>
     <div>
+        <NavBar />
         <h1>Carrinho</h1>
+        <Footer />
     </div>
 </template>
 
